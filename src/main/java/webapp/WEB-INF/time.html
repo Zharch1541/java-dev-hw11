@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Current time! </h1>
+<h3 th:text="${time}"></h3>
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="'Variable count: ' + ${queryParams.size()}"></h1>
+<h3 th:text="${textForH3}"></h3>
+
+<ul>
+    <li th:each="queryParam: ${queryParams}">
+        <span th:text="${queryParam.key}"></span>
+        =
+        <span th:text="${queryParam.value}"></span>
+    </li>
+</ul>
+
+<a href="http://localhost:8080/Mod92/post/get/all/posts">Redirect to all posts</a>
+</body>
+</html>-->
